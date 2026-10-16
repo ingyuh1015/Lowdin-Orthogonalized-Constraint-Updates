@@ -21,3 +21,17 @@ python train_locu_agent.py \
   --seed 1 \
   --device cuda:0
 ```
+
+## Evaluate
+
+From `CircleRun-Bullet/train`, evaluate a saved checkpoint using its training configuration. Replace the paths below with your run's files.
+
+```bash
+python eval_locu_agent.py \
+  --config /path/to/run/config.yaml \
+  --checkpoint /path/to/run/checkpoint/model.pt \
+  --episodes 10 \
+  --device cuda:0
+```
+
+Prints evaluation reward, episode length, and constraint costs.
