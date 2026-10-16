@@ -11,34 +11,6 @@ source .venv/bin/activate
 pip install -e .
 ```
 
-## Supported Task
-
-Use this task name with the training entry point:
-
-```text
-SafetyPointCircle2
-```
-
-Optional task preset:
-
-```text
-vel_hi08_lo04
-```
-
-The preset adds high/low velocity constraints to the base circle task.
-
-## Supported Algorithms
-
-Use one of these algorithm names:
-
-```text
-LOCU
-OnSDAC
-TRPOLag
-PPOLag
-CRPO
-```
-
 Algorithm YAML files live under `config/yaml/algorithms/`.
 
 ## Train
