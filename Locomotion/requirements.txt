@@ -1,0 +1,12 @@
+numpy
+torch==1.12.1
+gymnasium
+mujoco-py
+ruamel.yaml
+xmltodict
+qpsolvers==4.3.3
+osqp==1.1.1
+scipy
+scikit-learn
+pandas
+wandb

@@ -1,0 +1,14 @@
+# Velocity-limit task preset for redun-sweep on Circle2.
+# Appends both high (factor=0.8) and low (factor=0.4) speed-limit constraints.
+# Threshold = agent.max_speed * threshold_factor; for Point (max_speed=1.5):
+#   high threshold = 1.20 m/s
+#   low  threshold = 0.60 m/s
+add_constraints:
+  - name: velocity_limit_high
+    cost_limit: 25.0
+    type: binary
+    threshold_factor: 0.8
+  - name: velocity_limit_low
+    cost_limit: 25.0
+    type: binary
+    threshold_factor: 0.4

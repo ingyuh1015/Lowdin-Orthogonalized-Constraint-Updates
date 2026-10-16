@@ -1,0 +1,26 @@
+agent_type: point
+task_type: circle
+episode_length: 500
+placements_extents:
+  - -0.8
+  - -0.8
+  - 0.8
+  - 0.8
+objects:
+  - name: circle
+    num: 1
+  - name: sigwalls
+    num: 4
+    walls:
+      - {axis: x, coord: 1.125}
+      - {axis: x, coord: -1.125}
+      - {axis: y, coord: 1.125}
+      - {axis: y, coord: -1.125}
+constraints:
+  - name: out_of_boundary
+    cost_limit: 25.0
+    type: binary
+task_specific:
+  lidar_num_bins: 16
+  lidar_max_dist: 6.0
+  reward_factor: 0.1

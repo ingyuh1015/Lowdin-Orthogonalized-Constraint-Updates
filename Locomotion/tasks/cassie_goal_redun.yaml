@@ -1,0 +1,34 @@
+name: CassieGoalRedun-v0
+max_episode_len: 500
+is_earlystop: false
+n_envs: 20
+n_total_steps: 5000000
+
+backup_files: [
+    'tasks/cassie_goal_redun.yaml',
+    'tasks/goal_hazard_utils.py',
+    'tasks/goal_hazard_base.py',
+    'tasks/cassie_goal_redun/env_v0.py',
+]
+
+costs: [
+    'body_angle', 'body_angle_l1', 'body_angle_l2',
+    'com_height', 'com_height_l1', 'com_height_l2',
+    'foot_timing', 'foot_timing_l1', 'foot_timing_l2',
+    'speed', 'speed_l1', 'speed_l2',
+    'hazard_contact', 'hazard_contact_l1', 'hazard_contact_l2',
+    'energy', 'energy_l1', 'energy_l2',
+]
+algo_overrides:
+    crpo:
+        con_thresholds: [0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.4, 0.4, 0.4, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025]
+        con_alphas: [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]
+    locu:
+        con_thresholds: [0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.4, 0.4, 0.4, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025]
+        con_alphas: [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]
+    trpol:
+        con_thresholds: [0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.4, 0.4, 0.4, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025]
+        con_alphas: [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]
+    sdac:
+        con_thresholds: [0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.4, 0.4, 0.4, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025]
+        con_alphas: [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]

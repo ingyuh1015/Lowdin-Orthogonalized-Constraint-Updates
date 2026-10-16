@@ -1,0 +1,31 @@
+[project]
+name = "locu-mjx-circle"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+  "jax==0.6.2",
+  "flax==0.10.7",
+  "optax==0.2.7",
+  "mujoco==3.6.0",
+  "mujoco-mjx==3.6.0",
+  "pyyaml>=6.0.1,<7",
+  "flashbax>=0.1.3",
+  "jaxopt>=0.8",
+  "numpy",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["estimation", "networks"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["algos*", "config*", "envs*", "train*"]
+exclude = ["build*", "sweep*"]
+
+[tool.setuptools.package-data]
+"config" = ["**/*.yaml"]
+"envs" = ["assets/**/*.xml"]

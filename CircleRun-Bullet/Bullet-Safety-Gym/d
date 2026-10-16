@@ -1,0 +1,318 @@
+
+python train_grads_agent_pcrpo.py --seed 15 --short_task "DC-v3"
+python train_grads_agent_pcrpo.py --seed 25 --short_task "DC-v3"
+python train_grads_agent_pcrpo.py --seed 35 --short_task "DC-v3"
+python train_grads_agent_pcrpo.py --seed 45 --short_task "DC-v3"
+python train_grads_agent_pcrpo.py --seed 55 --short_task "DC-v3"
+
+
+python train_grads_agent_pcrpo.py --seed 15 --short_task "CC-v3"
+python train_grads_agent_pcrpo.py --seed 25 --short_task "CC-v3"
+python train_grads_agent_pcrpo.py --seed 35 --short_task "CC-v3"
+python train_grads_agent_pcrpo.py --seed 45 --short_task "CC-v3"
+python train_grads_agent_pcrpo.py --seed 55 --short_task "CC-v3"
+
+
+
+python train_grads_agent_pcrpo.py --seed 15 --short_task "BC-v3"
+python train_grads_agent_pcrpo.py --seed 25 --short_task "BC-v3"
+python train_grads_agent_pcrpo.py --seed 35 --short_task "BC-v3"
+python train_grads_agent_pcrpo.py --seed 45 --short_task "BC-v3"
+python train_grads_agent_pcrpo.py --seed 55 --short_task "BC-v3"
+
+
+python train_grads_agent_crpo.py --seed 15 --short_task "DC-v3"
+python train_grads_agent_crpo.py --seed 25 --short_task "DC-v3"
+python train_grads_agent_crpo.py --seed 35 --short_task "DC-v3"
+python train_grads_agent_crpo.py --seed 45 --short_task "DC-v3"
+python train_grads_agent_crpo.py --seed 55 --short_task "DC-v3"
+
+python train_grads_agent_crpo.py --seed 15 --short_task "CC-v3"
+python train_grads_agent_crpo.py --seed 25 --short_task "CC-v3"
+python train_grads_agent_crpo.py --seed 35 --short_task "CC-v3"
+python train_grads_agent_crpo.py --seed 45 --short_task "CC-v3"
+python train_grads_agent_crpo.py --seed 55 --short_task "CC-v3"
+
+python train_grads_agent_crpo.py --seed 15 --short_task "BC-v3"
+python train_grads_agent_crpo.py --seed 25 --short_task "BC-v3"
+python train_grads_agent_crpo.py --seed 35 --short_task "BC-v3"
+python train_grads_agent_crpo.py --seed 45 --short_task "BC-v3"
+python train_grads_agent_crpo.py --seed 55 --short_task "BC-v3"
+
+python train_grads_agent_qcqp.py --seed 15 --short_task "DC-v3"
+python train_grads_agent_qcqp.py --seed 25 --short_task "DC-v3"
+python train_grads_agent_qcqp.py --seed 35 --short_task "DC-v3"
+python train_grads_agent_qcqp.py --seed 45 --short_task "DC-v3"
+python train_grads_agent_qcqp.py --seed 55 --short_task "DC-v3"
+
+python train_grads_agent_qcqp.py --seed 15 --short_task "CC-v3"
+python train_grads_agent_qcqp.py --seed 25 --short_task "CC-v3"
+python train_grads_agent_qcqp.py --seed 35 --short_task "CC-v3"
+python train_grads_agent_qcqp.py --seed 45 --short_task "CC-v3"
+python train_grads_agent_qcqp.py --seed 55 --short_task "CC-v3"
+
+python train_grads_agent_qcqp.py --seed 15 --short_task "BC-v3"
+python train_grads_agent_qcqp.py --seed 25 --short_task "BC-v3"
+python train_grads_agent_qcqp.py --seed 35 --short_task "BC-v3"
+python train_grads_agent_qcqp.py --seed 45 --short_task "BC-v3"
+python train_grads_agent_qcqp.py --seed 55 --short_task "BC-v3"
+
+
+python train_grads_agent_locu.py --seed 15 --short_task "DC-v3"
+python train_grads_agent_locu.py --seed 25 --short_task "DC-v3"
+python train_grads_agent_locu.py --seed 35 --short_task "DC-v3"
+python train_grads_agent_locu.py --seed 45 --short_task "DC-v3"
+python train_grads_agent_locu.py --seed 55 --short_task "DC-v3"
+
+python train_grads_agent_locu.py --seed 15 --short_task "DC-v3"
+python train_grads_agent_locu.py --seed 25 --short_task "DC-v3"
+python train_grads_agent_locu.py --seed 35 --short_task "DC-v3"
+python train_grads_agent_locu.py --seed 45 --short_task "DC-v3"
+python train_grads_agent_locu.py --seed 55 --short_task "DC-v3"
+
+
+python train_grads_agent_locu.py --seed 15 --short_task "DC-v3"
+python train_grads_agent_locu.py --seed 25 --short_task "DC-v3"
+python train_grads_agent_locu.py --seed 35 --short_task "DC-v3"
+python train_grads_agent_locu.py --seed 45 --short_task "DC-v3"
+python train_grads_agent_locu.py --seed 55 --short_task "DC-v3"
+
+python train_grads_agent_vtrpo.py --seed 15 --short_task "DC-v3"
+python train_grads_agent_vtrpo.py --seed 25 --short_task "DC-v3"
+python train_grads_agent_vtrpo.py --seed 35 --short_task "DC-v3"
+python train_grads_agent_vtrpo.py --seed 45 --short_task "DC-v3"
+python train_grads_agent_vtrpo.py --seed 55 --short_task "DC-v3"
+
+python train_grads_agent_vtrpo.py --seed 15 --short_task "CC-v3"
+python train_grads_agent_vtrpo.py --seed 25 --short_task "CC-v3"
+python train_grads_agent_vtrpo.py --seed 35 --short_task "CC-v3"
+python train_grads_agent_vtrpo.py --seed 45 --short_task "CC-v3"
+python train_grads_agent_vtrpo.py --seed 55 --short_task "CC-v3"
+
+python train_grads_agent_vtrpo.py --seed 15 --short_task "BC-v3"
+python train_grads_agent_vtrpo.py --seed 25 --short_task "BC-v3"
+python train_grads_agent_vtrpo.py --seed 35 --short_task "BC-v3"
+python train_grads_agent_vtrpo.py --seed 45 --short_task "BC-v3"
+python train_grads_agent_vtrpo.py --seed 55 --short_task "BC-v3"
+
+python train_grads_agent_vppo.py --seed 15 --short_task "DC-v3"
+python train_grads_agent_vppo.py --seed 25 --short_task "DC-v3"
+python train_grads_agent_vppo.py --seed 35 --short_task "DC-v3"
+python train_grads_agent_vppo.py --seed 45 --short_task "DC-v3"
+python train_grads_agent_vppo.py --seed 55 --short_task "DC-v3"
+
+python train_grads_agent_vppo.py --seed 15 --short_task "CC-v3"
+python train_grads_agent_vppo.py --seed 25 --short_task "CC-v3"
+python train_grads_agent_vppo.py --seed 35 --short_task "CC-v3"
+python train_grads_agent_vppo.py --seed 45 --short_task "CC-v3"
+python train_grads_agent_vppo.py --seed 55 --short_task "CC-v3"
+
+python train_grads_agent_vppo.py --seed 15 --short_task "BC-v3"
+python train_grads_agent_vppo.py --seed 25 --short_task "BC-v3"
+python train_grads_agent_vppo.py --seed 35 --short_task "BC-v3"
+python train_grads_agent_vppo.py --seed 45 --short_task "BC-v3"
+python train_grads_agent_vppo.py --seed 55 --short_task "BC-v3"
+
+
+
+
+python train_grads_agent_trpo.py --seed 15 --short_task "DC-v3"
+python train_grads_agent_trpo.py --seed 25 --short_task "DC-v3"
+python train_grads_agent_trpo.py --seed 35 --short_task "DC-v3"
+python train_grads_agent_trpo.py --seed 45 --short_task "DC-v3"
+python train_grads_agent_trpo.py --seed 55 --short_task "DC-v3"
+
+python train_grads_agent_trpo.py --seed 15 --short_task "CC-v3"
+python train_grads_agent_trpo.py --seed 25 --short_task "CC-v3"
+python train_grads_agent_trpo.py --seed 35 --short_task "CC-v3"
+python train_grads_agent_trpo.py --seed 45 --short_task "CC-v3"
+python train_grads_agent_trpo.py --seed 55 --short_task "CC-v3"
+
+python train_grads_agent_trpo.py --seed 15 --short_task "BC-v3"
+python train_grads_agent_trpo.py --seed 25 --short_task "BC-v3"
+python train_grads_agent_trpo.py --seed 35 --short_task "BC-v3"
+python train_grads_agent_trpo.py --seed 45 --short_task "BC-v3"
+python train_grads_agent_trpo.py --seed 55 --short_task "BC-v3"
+
+
+python train_grads_agent.py --seed 15 --short_task "DC-v3"
+python train_grads_agent.py --seed 25 --short_task "DC-v3"
+python train_grads_agent.py --seed 35 --short_task "DC-v3"
+python train_grads_agent.py --seed 45 --short_task "DC-v3"
+python train_grads_agent.py --seed 55 --short_task "DC-v3"
+
+python train_grads_agent.py --seed 15 --short_task "CC-v3"
+python train_grads_agent.py --seed 25 --short_task "CC-v3"
+python train_grads_agent.py --seed 35 --short_task "CC-v3"
+python train_grads_agent.py --seed 45 --short_task "CC-v3"
+python train_grads_agent.py --seed 55 --short_task "CC-v3"
+
+python train_grads_agent.py --seed 15 --short_task "BC-v3"
+python train_grads_agent.py --seed 25 --short_task "BC-v3"
+python train_grads_agent.py --seed 35 --short_task "BC-v3"
+python train_grads_agent.py --seed 45 --short_task "BC-v3"
+python train_grads_agent.py --seed 55 --short_task "BC-v3"
+
+
+
+
+
+
+#################################################################
+
+python train_grads_agent_pcrpo1.py --seed 15 --short_task "DC-v3"
+python train_grads_agent_pcrpo1.py --seed 25 --short_task "DC-v3"
+python train_grads_agent_pcrpo1.py --seed 35 --short_task "DC-v3"
+python train_grads_agent_pcrpo1.py --seed 45 --short_task "DC-v3"
+python train_grads_agent_pcrpo1.py --seed 55 --short_task "DC-v3"
+
+
+python train_grads_agent_pcrpo1.py --seed 15 --short_task "CC-v3"
+python train_grads_agent_pcrpo1.py --seed 25 --short_task "CC-v3"
+python train_grads_agent_pcrpo1.py --seed 35 --short_task "CC-v3"
+python train_grads_agent_pcrpo1.py --seed 45 --short_task "CC-v3"
+python train_grads_agent_pcrpo1.py --seed 55 --short_task "CC-v3"
+
+
+
+python train_grads_agent_pcrpo1.py --seed 15 --short_task "BC-v3"
+python train_grads_agent_pcrpo1.py --seed 25 --short_task "BC-v3"
+python train_grads_agent_pcrpo1.py --seed 35 --short_task "BC-v3"
+python train_grads_agent_pcrpo1.py --seed 45 --short_task "BC-v3"
+python train_grads_agent_pcrpo1.py --seed 55 --short_task "BC-v3"
+
+
+python train_grads_agent_crpo1.py --seed 15 --short_task "DC-v3"
+python train_grads_agent_crpo1.py --seed 25 --short_task "DC-v3"
+python train_grads_agent_crpo1.py --seed 35 --short_task "DC-v3"
+python train_grads_agent_crpo1.py --seed 45 --short_task "DC-v3"
+python train_grads_agent_crpo1.py --seed 55 --short_task "DC-v3"
+
+python train_grads_agent_crpo1.py --seed 15 --short_task "CC-v3"
+python train_grads_agent_crpo1.py --seed 25 --short_task "CC-v3"
+python train_grads_agent_crpo1.py --seed 35 --short_task "CC-v3"
+python train_grads_agent_crpo1.py --seed 45 --short_task "CC-v3"
+python train_grads_agent_crpo1.py --seed 55 --short_task "CC-v3"
+
+python train_grads_agent_crpo1.py --seed 15 --short_task "BC-v3"
+python train_grads_agent_crpo1.py --seed 25 --short_task "BC-v3"
+python train_grads_agent_crpo1.py --seed 35 --short_task "BC-v3"
+python train_grads_agent_crpo1.py --seed 45 --short_task "BC-v3"
+python train_grads_agent_crpo1.py --seed 55 --short_task "BC-v3"
+
+python train_grads_agent_qcqp1.py --seed 15 --short_task "DC-v3"
+python train_grads_agent_qcqp1.py --seed 25 --short_task "DC-v3"
+python train_grads_agent_qcqp1.py --seed 35 --short_task "DC-v3"
+python train_grads_agent_qcqp1.py --seed 45 --short_task "DC-v3"
+python train_grads_agent_qcqp1.py --seed 55 --short_task "DC-v3"
+
+python train_grads_agent_qcqp1.py --seed 15 --short_task "CC-v3"
+python train_grads_agent_qcqp1.py --seed 25 --short_task "CC-v3"
+python train_grads_agent_qcqp1.py --seed 35 --short_task "CC-v3"
+python train_grads_agent_qcqp1.py --seed 45 --short_task "CC-v3"
+python train_grads_agent_qcqp1.py --seed 55 --short_task "CC-v3"
+
+python train_grads_agent_qcqp1.py --seed 15 --short_task "BC-v3"
+python train_grads_agent_qcqp1.py --seed 25 --short_task "BC-v3"
+python train_grads_agent_qcqp1.py --seed 35 --short_task "BC-v3"
+python train_grads_agent_qcqp1.py --seed 45 --short_task "BC-v3"
+python train_grads_agent_qcqp1.py --seed 55 --short_task "BC-v3"
+
+
+python train_grads_agent_locu1.py --seed 15 --short_task "DC-v3"
+python train_grads_agent_locu1.py --seed 25 --short_task "DC-v3"
+python train_grads_agent_locu1.py --seed 35 --short_task "DC-v3"
+python train_grads_agent_locu1.py --seed 45 --short_task "DC-v3"
+python train_grads_agent_locu1.py --seed 55 --short_task "DC-v3"
+
+python train_grads_agent_locu1.py --seed 15 --short_task "DC-v3"
+python train_grads_agent_locu1.py --seed 25 --short_task "DC-v3"
+python train_grads_agent_locu1.py --seed 35 --short_task "DC-v3"
+python train_grads_agent_locu1.py --seed 45 --short_task "DC-v3"
+python train_grads_agent_locu1.py --seed 55 --short_task "DC-v3"
+
+
+python train_grads_agent_locu1.py --seed 15 --short_task "DC-v3"
+python train_grads_agent_locu1.py --seed 25 --short_task "DC-v3"
+python train_grads_agent_locu1.py --seed 35 --short_task "DC-v3"
+python train_grads_agent_locu1.py --seed 45 --short_task "DC-v3"
+python train_grads_agent_locu1.py --seed 55 --short_task "DC-v3"
+
+
+
+python train_grads_agent_vtrpo1.py --seed 15 --short_task "DC-v3"
+python train_grads_agent_vtrpo1.py --seed 25 --short_task "DC-v3"
+python train_grads_agent_vtrpo1.py --seed 35 --short_task "DC-v3"
+python train_grads_agent_vtrpo1.py --seed 45 --short_task "DC-v3"
+python train_grads_agent_vtrpo1.py --seed 55 --short_task "DC-v3"
+
+python train_grads_agent_vtrpo1.py --seed 15 --short_task "CC-v3"
+python train_grads_agent_vtrpo1.py --seed 25 --short_task "CC-v3"
+python train_grads_agent_vtrpo1.py --seed 35 --short_task "CC-v3"
+python train_grads_agent_vtrpo1.py --seed 45 --short_task "CC-v3"
+python train_grads_agent_vtrpo1.py --seed 55 --short_task "CC-v3"
+
+python train_grads_agent_vtrpo1.py --seed 15 --short_task "BC-v3"
+python train_grads_agent_vtrpo1.py --seed 25 --short_task "BC-v3"
+python train_grads_agent_vtrpo1.py --seed 35 --short_task "BC-v3"
+python train_grads_agent_vtrpo1.py --seed 45 --short_task "BC-v3"
+python train_grads_agent_vtrpo1.py --seed 55 --short_task "BC-v3"
+
+python train_grads_agent_vppo1.py --seed 15 --short_task "DC-v3"
+python train_grads_agent_vppo1.py --seed 25 --short_task "DC-v3"
+python train_grads_agent_vppo1.py --seed 35 --short_task "DC-v3"
+python train_grads_agent_vppo1.py --seed 45 --short_task "DC-v3"
+python train_grads_agent_vppo1.py --seed 55 --short_task "DC-v3"
+
+python train_grads_agent_vppo1.py --seed 15 --short_task "CC-v3"
+python train_grads_agent_vppo1.py --seed 25 --short_task "CC-v3"
+python train_grads_agent_vppo1.py --seed 35 --short_task "CC-v3"
+python train_grads_agent_vppo1.py --seed 45 --short_task "CC-v3"
+python train_grads_agent_vppo1.py --seed 55 --short_task "CC-v3"
+
+python train_grads_agent_vppo1.py --seed 15 --short_task "BC-v3"
+python train_grads_agent_vppo1.py --seed 25 --short_task "BC-v3"
+python train_grads_agent_vppo1.py --seed 35 --short_task "BC-v3"
+python train_grads_agent_vppo1.py --seed 45 --short_task "BC-v3"
+python train_grads_agent_vppo1.py --seed 55 --short_task "BC-v3"
+
+
+
+
+python train_grads_agent_trpo1.py --seed 15 --short_task "DC-v3"
+python train_grads_agent_trpo1.py --seed 25 --short_task "DC-v3"
+python train_grads_agent_trpo1.py --seed 35 --short_task "DC-v3"
+python train_grads_agent_trpo1.py --seed 45 --short_task "DC-v3"
+python train_grads_agent_trpo1.py --seed 55 --short_task "DC-v3"
+
+python train_grads_agent_trpo1.py --seed 15 --short_task "CC-v3"
+python train_grads_agent_trpo1.py --seed 25 --short_task "CC-v3"
+python train_grads_agent_trpo1.py --seed 35 --short_task "CC-v3"
+python train_grads_agent_trpo1.py --seed 45 --short_task "CC-v3"
+python train_grads_agent_trpo1.py --seed 55 --short_task "CC-v3"
+
+python train_grads_agent_trpo1.py --seed 15 --short_task "BC-v3"
+python train_grads_agent_trpo1.py --seed 25 --short_task "BC-v3"
+python train_grads_agent_trpo1.py --seed 35 --short_task "BC-v3"
+python train_grads_agent_trpo1.py --seed 45 --short_task "BC-v3"
+python train_grads_agent_trpo1.py --seed 55 --short_task "BC-v3"
+
+
+python train_grads_agent1.py --seed 15 --short_task "DC-v3"
+python train_grads_agent1.py --seed 25 --short_task "DC-v3"
+python train_grads_agent1.py --seed 35 --short_task "DC-v3"
+python train_grads_agent1.py --seed 45 --short_task "DC-v3"
+python train_grads_agent1.py --seed 55 --short_task "DC-v3"
+
+python train_grads_agent1.py --seed 15 --short_task "CC-v3"
+python train_grads_agent1.py --seed 25 --short_task "CC-v3"
+python train_grads_agent1.py --seed 35 --short_task "CC-v3"
+python train_grads_agent1.py --seed 45 --short_task "CC-v3"
+python train_grads_agent1.py --seed 55 --short_task "CC-v3"
+
+python train_grads_agent1.py --seed 15 --short_task "BC-v3"
+python train_grads_agent1.py --seed 25 --short_task "BC-v3"
+python train_grads_agent1.py --seed 35 --short_task "BC-v3"
+python train_grads_agent1.py --seed 45 --short_task "BC-v3"
+python train_grads_agent1.py --seed 55 --short_task "BC-v3"
+
