@@ -1,29 +1,21 @@
-LOCU training quick run
+## Setup
 
-This folder has simple scripts to run LOCU with different redundancy settings.
+Install the dependencies from this folder.
 
-Prerequisites
-- Python environment with project dependencies installed. (with requirements.txt)
-- Run from the train/ directory.
+```bash
+cd CircleRun-Bullet
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
 
+## Train
 
-Usage
+Run LOCU with redundancy 1 or 3:
 
-Redundancy = 1:
-  ./run_locu_redun1.sh
-
-Redundancy = 3:
-  ./run_locu_redun3.sh
-
-Optional arguments
-You can pass SHORT_TASK as positional args:
-
-  ./run_locu_redun1.sh SafetyBallCircle-v0 BC-v3
-  ./run_locu_redun3.sh SafetyDroneCircle-v0 DC-v3
-
-
-
-Notes
-- The scripts call train_locu_agent.py in this directory.
-- If you want to run from another directory, cd train first.
-- License/source-origin notices are summarized in ../NOTICE.md. Keep that file and the package-local LICENSE files when submitting or redistributing this folder.
+```bash
+cd train
+bash run_locu_redun1.sh
+# or
+bash run_locu_redun3.sh
+```
